@@ -1,0 +1,24 @@
+{
+  "lang": "kin",
+  "n_samples": 44,
+  "model": "Aya-23-8B",
+  "aya_direct": {
+    "source_side": {
+      "em": 0.0682,
+      "f1": 0.1253,
+      "semantic_sim": 0.3604
+    }
+  },
+  "aya_translate_pivot": {
+    "english_side": {
+      "em": 0.1818,
+      "f1": 0.3491,
+      "semantic_sim": 0.5852
+    },
+    "source_side": {
+      "em": 0.1591,
+      "f1": 0.3648,
+      "semantic_sim": 0.6508
+    }
+  }
+}

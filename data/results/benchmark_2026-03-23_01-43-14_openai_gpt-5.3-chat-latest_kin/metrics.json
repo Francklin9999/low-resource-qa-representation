@@ -1,0 +1,25 @@
+{
+  "lang": "kin",
+  "n_samples": 44,
+  "provider": "openai",
+  "model": "gpt-5.3-chat-latest",
+  "direct": {
+    "source_side": {
+      "em": 0.1818,
+      "f1": 0.3495,
+      "semantic_sim": 0.6826
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.1364,
+      "f1": 0.3354,
+      "semantic_sim": 0.5764
+    },
+    "source_side": {
+      "em": 0.1591,
+      "f1": 0.3054,
+      "semantic_sim": 0.6003
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "lang": "hau",
+  "n_samples": 45,
+  "provider": "openai",
+  "model": "gpt-5.3-chat-latest",
+  "direct": {
+    "source_side": {
+      "em": 0.5111,
+      "f1": 0.5921,
+      "semantic_sim": 0.7398
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.3333,
+      "f1": 0.4808,
+      "semantic_sim": 0.6809
+    },
+    "source_side": {
+      "em": 0.2,
+      "f1": 0.3554,
+      "semantic_sim": 0.5774
+    }
+  }
+}

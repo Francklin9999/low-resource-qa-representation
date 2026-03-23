@@ -1,0 +1,38 @@
+base_url: "https://raw.githubusercontent.com/masakhane-io/afriqa/main/data"
+
+# Filtering thresholds
+min_question_length: 1
+min_answer_length: 1
+min_context_length: 1
+
+languages:
+  hau:
+    name: hausa
+    pivot: en
+  yor:
+    name: yoruba
+    pivot: en
+  ibo:
+    name: igbo
+    pivot: en
+  swa:
+    name: swahili
+    pivot: en
+  kin:
+    name: kinyarwanda
+    pivot: en
+  twi:
+    name: twi
+    pivot: en
+  wol:
+    name: wolof
+    pivot: fr
+  zul:
+    name: zulu
+    pivot: en
+  bem:
+    name: bemba
+    pivot: en
+  fon:
+    name: fon
+    pivot: fr

@@ -1,0 +1,25 @@
+{
+  "lang": "kin",
+  "n_samples": 44,
+  "provider": "anthropic",
+  "model": "claude-opus-4-5-20251101",
+  "direct": {
+    "source_side": {
+      "em": 0.1591,
+      "f1": 0.3423,
+      "semantic_sim": 0.676
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.1818,
+      "f1": 0.3468,
+      "semantic_sim": 0.5823
+    },
+    "source_side": {
+      "em": 0.2045,
+      "f1": 0.352,
+      "semantic_sim": 0.6008
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "lang": "ibo",
+  "n_samples": 62,
+  "finetuned": {
+    "english_side": {
+      "em": 0.3387,
+      "f1": 0.5707,
+      "semantic_sim": 0.7695
+    },
+    "source_side": {
+      "em": 0.4194,
+      "f1": 0.6019,
+      "semantic_sim": 0.7934
+    }
+  },
+  "base_translate_pivot": {
+    "english_side": {
+      "em": 0.3226,
+      "f1": 0.5775,
+      "semantic_sim": 0.742
+    },
+    "source_side": {
+      "em": 0.4032,
+      "f1": 0.6105,
+      "semantic_sim": 0.7551
+    }
+  }
+}

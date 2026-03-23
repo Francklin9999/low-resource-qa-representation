@@ -1,0 +1,24 @@
+{
+  "lang": "bem",
+  "n_samples": 47,
+  "model": "Aya-23-8B",
+  "aya_direct": {
+    "source_side": {
+      "em": 0.1915,
+      "f1": 0.2401,
+      "semantic_sim": 0.4373
+    }
+  },
+  "aya_translate_pivot": {
+    "english_side": {
+      "em": 0.2128,
+      "f1": 0.3385,
+      "semantic_sim": 0.5447
+    },
+    "source_side": {
+      "em": 0.2128,
+      "f1": 0.3181,
+      "semantic_sim": 0.4896
+    }
+  }
+}

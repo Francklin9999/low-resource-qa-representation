@@ -1,0 +1,25 @@
+{
+  "lang": "zul",
+  "n_samples": 49,
+  "provider": "openai",
+  "model": "gpt-5.3-chat-latest",
+  "direct": {
+    "source_side": {
+      "em": 0.2857,
+      "f1": 0.4182,
+      "semantic_sim": 0.7019
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.3265,
+      "f1": 0.5389,
+      "semantic_sim": 0.701
+    },
+    "source_side": {
+      "em": 0.1429,
+      "f1": 0.3293,
+      "semantic_sim": 0.6418
+    }
+  }
+}

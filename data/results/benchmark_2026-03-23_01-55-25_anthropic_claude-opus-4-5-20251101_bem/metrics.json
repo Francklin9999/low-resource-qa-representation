@@ -1,0 +1,25 @@
+{
+  "lang": "bem",
+  "n_samples": 47,
+  "provider": "anthropic",
+  "model": "claude-opus-4-5-20251101",
+  "direct": {
+    "source_side": {
+      "em": 0.4894,
+      "f1": 0.5293,
+      "semantic_sim": 0.667
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.2766,
+      "f1": 0.4023,
+      "semantic_sim": 0.597
+    },
+    "source_side": {
+      "em": 0.1277,
+      "f1": 0.2909,
+      "semantic_sim": 0.5288
+    }
+  }
+}

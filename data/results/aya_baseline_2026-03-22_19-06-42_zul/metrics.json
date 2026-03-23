@@ -1,0 +1,24 @@
+{
+  "lang": "zul",
+  "n_samples": 49,
+  "model": "Aya-23-8B",
+  "aya_direct": {
+    "source_side": {
+      "em": 0.0816,
+      "f1": 0.1147,
+      "semantic_sim": 0.3572
+    }
+  },
+  "aya_translate_pivot": {
+    "english_side": {
+      "em": 0.3061,
+      "f1": 0.4996,
+      "semantic_sim": 0.6469
+    },
+    "source_side": {
+      "em": 0.0816,
+      "f1": 0.2739,
+      "semantic_sim": 0.5772
+    }
+  }
+}

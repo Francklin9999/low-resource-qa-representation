@@ -1,0 +1,25 @@
+{
+  "lang": "kin",
+  "n_samples": 44,
+  "provider": "mt5",
+  "model": "google/mt5-large",
+  "direct": {
+    "source_side": {
+      "em": 0.0,
+      "f1": 0.0037,
+      "semantic_sim": 0.1213
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.0,
+      "f1": 0.0267,
+      "semantic_sim": 0.1745
+    },
+    "source_side": {
+      "em": 0.0,
+      "f1": 0.0129,
+      "semantic_sim": 0.1742
+    }
+  }
+}

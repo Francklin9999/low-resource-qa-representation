@@ -1,0 +1,25 @@
+{
+  "lang": "ibo",
+  "n_samples": 62,
+  "provider": "openai",
+  "model": "gpt-5.3-chat-latest",
+  "direct": {
+    "source_side": {
+      "em": 0.5645,
+      "f1": 0.7348,
+      "semantic_sim": 0.8654
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.4194,
+      "f1": 0.6239,
+      "semantic_sim": 0.7897
+    },
+    "source_side": {
+      "em": 0.3065,
+      "f1": 0.599,
+      "semantic_sim": 0.7922
+    }
+  }
+}

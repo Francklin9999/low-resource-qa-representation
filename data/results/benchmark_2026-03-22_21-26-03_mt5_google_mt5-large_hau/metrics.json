@@ -1,0 +1,25 @@
+{
+  "lang": "hau",
+  "n_samples": 45,
+  "provider": "mt5",
+  "model": "google/mt5-large",
+  "direct": {
+    "source_side": {
+      "em": 0.0,
+      "f1": 0.0104,
+      "semantic_sim": 0.164
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.0,
+      "f1": 0.0165,
+      "semantic_sim": 0.1455
+    },
+    "source_side": {
+      "em": 0.0,
+      "f1": 0.0055,
+      "semantic_sim": 0.0978
+    }
+  }
+}

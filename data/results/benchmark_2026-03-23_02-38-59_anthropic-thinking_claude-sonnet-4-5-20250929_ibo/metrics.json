@@ -1,0 +1,25 @@
+{
+  "lang": "ibo",
+  "n_samples": 62,
+  "provider": "anthropic-thinking",
+  "model": "claude-sonnet-4-5-20250929",
+  "direct": {
+    "source_side": {
+      "em": 0.5161,
+      "f1": 0.6884,
+      "semantic_sim": 0.8514
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.3226,
+      "f1": 0.54,
+      "semantic_sim": 0.7133
+    },
+    "source_side": {
+      "em": 0.3065,
+      "f1": 0.5618,
+      "semantic_sim": 0.7433
+    }
+  }
+}

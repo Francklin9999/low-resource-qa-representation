@@ -1,0 +1,24 @@
+{
+  "lang": "ibo",
+  "n_samples": 62,
+  "model": "Aya-23-8B",
+  "aya_direct": {
+    "source_side": {
+      "em": 0.2258,
+      "f1": 0.3431,
+      "semantic_sim": 0.5174
+    }
+  },
+  "aya_translate_pivot": {
+    "english_side": {
+      "em": 0.3548,
+      "f1": 0.5937,
+      "semantic_sim": 0.7368
+    },
+    "source_side": {
+      "em": 0.3871,
+      "f1": 0.5734,
+      "semantic_sim": 0.7568
+    }
+  }
+}

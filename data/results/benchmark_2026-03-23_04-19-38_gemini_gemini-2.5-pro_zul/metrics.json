@@ -1,0 +1,25 @@
+{
+  "lang": "zul",
+  "n_samples": 49,
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "direct": {
+    "source_side": {
+      "em": 0.2857,
+      "f1": 0.454,
+      "semantic_sim": 0.6973
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.2857,
+      "f1": 0.4923,
+      "semantic_sim": 0.6302
+    },
+    "source_side": {
+      "em": 0.1429,
+      "f1": 0.3309,
+      "semantic_sim": 0.5791
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "lang": "fon",
+  "n_samples": 57,
+  "provider": "openai",
+  "model": "gpt-5.3-chat-latest",
+  "direct": {
+    "source_side": {
+      "em": 0.1228,
+      "f1": 0.2106,
+      "semantic_sim": 0.4471
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.2456,
+      "f1": 0.3799,
+      "semantic_sim": 0.5539
+    },
+    "source_side": {
+      "em": 0.0175,
+      "f1": 0.1007,
+      "semantic_sim": 0.3818
+    }
+  }
+}

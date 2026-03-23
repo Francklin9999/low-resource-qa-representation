@@ -1,0 +1,25 @@
+{
+  "lang": "bem",
+  "n_samples": 47,
+  "provider": "openai",
+  "model": "gpt-5.3-chat-latest",
+  "direct": {
+    "source_side": {
+      "em": 0.4468,
+      "f1": 0.4734,
+      "semantic_sim": 0.6817
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.2553,
+      "f1": 0.3887,
+      "semantic_sim": 0.6089
+    },
+    "source_side": {
+      "em": 0.1277,
+      "f1": 0.3138,
+      "semantic_sim": 0.5398
+    }
+  }
+}

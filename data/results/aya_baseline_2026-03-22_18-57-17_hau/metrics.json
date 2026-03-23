@@ -1,0 +1,24 @@
+{
+  "lang": "hau",
+  "n_samples": 45,
+  "model": "Aya-23-8B",
+  "aya_direct": {
+    "source_side": {
+      "em": 0.1556,
+      "f1": 0.1941,
+      "semantic_sim": 0.4499
+    }
+  },
+  "aya_translate_pivot": {
+    "english_side": {
+      "em": 0.2889,
+      "f1": 0.4686,
+      "semantic_sim": 0.6337
+    },
+    "source_side": {
+      "em": 0.2444,
+      "f1": 0.3728,
+      "semantic_sim": 0.5405
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "lang": "ibo",
+  "n_samples": 62,
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "direct": {
+    "source_side": {
+      "em": 0.4677,
+      "f1": 0.6434,
+      "semantic_sim": 0.788
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.3548,
+      "f1": 0.5736,
+      "semantic_sim": 0.7307
+    },
+    "source_side": {
+      "em": 0.3065,
+      "f1": 0.5795,
+      "semantic_sim": 0.7555
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "lang": "bem",
+  "n_samples": 47,
+  "finetuned": {
+    "english_side": {
+      "em": 0.3191,
+      "f1": 0.4645,
+      "semantic_sim": 0.6614
+    },
+    "source_side": {
+      "em": 0.3404,
+      "f1": 0.4155,
+      "semantic_sim": 0.6073
+    }
+  },
+  "base_translate_pivot": {
+    "english_side": {
+      "em": 0.1702,
+      "f1": 0.328,
+      "semantic_sim": 0.5759
+    },
+    "source_side": {
+      "em": 0.1915,
+      "f1": 0.3199,
+      "semantic_sim": 0.5168
+    }
+  }
+}

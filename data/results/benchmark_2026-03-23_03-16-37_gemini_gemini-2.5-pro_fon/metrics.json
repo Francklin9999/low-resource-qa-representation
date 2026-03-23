@@ -1,0 +1,25 @@
+{
+  "lang": "fon",
+  "n_samples": 57,
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "direct": {
+    "source_side": {
+      "em": 0.193,
+      "f1": 0.3127,
+      "semantic_sim": 0.5201
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.2281,
+      "f1": 0.3351,
+      "semantic_sim": 0.4726
+    },
+    "source_side": {
+      "em": 0.0175,
+      "f1": 0.0906,
+      "semantic_sim": 0.2981
+    }
+  }
+}

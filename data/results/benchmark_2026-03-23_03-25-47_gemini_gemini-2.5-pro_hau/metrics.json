@@ -1,0 +1,25 @@
+{
+  "lang": "hau",
+  "n_samples": 45,
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "direct": {
+    "source_side": {
+      "em": 0.4,
+      "f1": 0.4789,
+      "semantic_sim": 0.6884
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.2889,
+      "f1": 0.4262,
+      "semantic_sim": 0.6172
+    },
+    "source_side": {
+      "em": 0.1556,
+      "f1": 0.3224,
+      "semantic_sim": 0.537
+    }
+  }
+}

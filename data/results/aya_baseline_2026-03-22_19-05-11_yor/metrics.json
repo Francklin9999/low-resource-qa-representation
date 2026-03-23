@@ -1,0 +1,24 @@
+{
+  "lang": "yor",
+  "n_samples": 51,
+  "model": "Aya-23-8B",
+  "aya_direct": {
+    "source_side": {
+      "em": 0.2157,
+      "f1": 0.2582,
+      "semantic_sim": 0.4449
+    }
+  },
+  "aya_translate_pivot": {
+    "english_side": {
+      "em": 0.2549,
+      "f1": 0.488,
+      "semantic_sim": 0.6293
+    },
+    "source_side": {
+      "em": 0.1765,
+      "f1": 0.3692,
+      "semantic_sim": 0.5935
+    }
+  }
+}

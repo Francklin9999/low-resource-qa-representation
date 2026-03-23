@@ -1,0 +1,31 @@
+language: hau # for specific language
+max_samples: 9999999
+
+models:
+  # API models
+  - provider: openai
+    model: gpt-5.3-chat-latest
+    display_name: GPT-5.3
+
+  - provider: anthropic
+    model: claude-opus-4-5-20251101
+    display_name: Opus 4.5
+
+  - provider: anthropic-thinking
+    model: claude-sonnet-4-5-20250929
+    display_name: Sonnet 4.5 (think)
+
+  - provider: gemini
+    model: gemini-2.5-pro
+    display_name: Gemini 2.5 Pro
+
+  # Local models
+  - provider: mt5
+    model: google/mt5-large
+    display_name: mT5-large
+
+# Display names for non-benchmark models (finetune, baselines)
+other_models:
+  finetuned: Finetuned QLoRA
+  base_qwen: Base Qwen2.5-3B
+  aya: Aya-23-8B

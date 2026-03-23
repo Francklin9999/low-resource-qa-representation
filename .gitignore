@@ -1,0 +1,60 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (downloaded at runtime)
+data/raw/
+data/processed/
+
+# Training artifacts (checkpoints, adapters - too large for git)
+data/training/
+
+# Model cache / downloads
+models/
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+
+# HuggingFace / torch cache
+.cache/
+
+# Experiment tracking
+wandb/
+runs/
+lightning_logs/
+*.tfevents*
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/training/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy / ruff
+.mypy_cache/
+.ruff_cache/

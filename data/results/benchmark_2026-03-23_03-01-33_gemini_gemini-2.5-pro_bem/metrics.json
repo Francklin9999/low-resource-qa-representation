@@ -1,0 +1,25 @@
+{
+  "lang": "bem",
+  "n_samples": 47,
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "direct": {
+    "source_side": {
+      "em": 0.5106,
+      "f1": 0.5278,
+      "semantic_sim": 0.6727
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.2766,
+      "f1": 0.4183,
+      "semantic_sim": 0.6013
+    },
+    "source_side": {
+      "em": 0.1277,
+      "f1": 0.3067,
+      "semantic_sim": 0.5323
+    }
+  }
+}

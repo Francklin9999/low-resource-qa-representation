@@ -1,0 +1,30 @@
+# Prompt templates used across experiments and fine-tuning
+
+# Standard experiment: direct and translate-pivot QA
+system_prompt: >
+  Answer the following question in as few words as possible.
+  Give only the answer, no explanation.
+
+# Context experiment: QA with gold passages
+context_system_prompt: >
+  Answer the question using only the context.
+  Give only the answer in as few words as possible, no explanation.
+  If the answer is not in the context, say: NOT FOUND.
+
+# Fine-tuning chat system message (used in training, inference, and baselines)
+finetune_system_prompt: >
+  You are a helpful QA assistant. Answer the question based on
+  the given context. Be concise and give only the answer.
+
+# Fine-tuning instruction template (extractive QA)
+qa_prompt_template: |
+  Answer the question using only the context.
+  If the answer is not in the context, say: NOT FOUND.
+
+  Context:
+  {context}
+
+  Question:
+  {question}
+
+  Answer:

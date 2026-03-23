@@ -1,0 +1,61 @@
+# Fine-tuning pipeline configuration
+
+language: fon
+
+# Data preparation
+data:
+  english_source: squad        # "squad" or "tydiqa"
+  english_max_samples: 999     # max English QA samples to download
+  min_similarity: 0.3          # discard translations below this LaBSE threshold
+  seed: 42
+
+# Dataset mixing
+dataset:
+  translated_ratio: 0.65       # translated target language -> English (main bucket)
+  english_ratio: 0.25          # clean English QA
+  augmented_ratio: 0.10        # round-trip noisy English
+  augmented_max: 100           # max round-trip samples to generate
+
+# QLoRA training
+training:
+  base_model: Qwen/Qwen2.5-3B-Instruct
+
+  # LoRA
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  lora_target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+  # Training hyperparameters
+  learning_rate: 2e-4
+  epochs: 7
+  per_device_train_batch_size: 2
+  per_device_eval_batch_size: 2
+  gradient_accumulation_steps: 8
+  max_length: 512
+  warmup_steps: 10
+  weight_decay: 0.01
+  lr_scheduler_type: cosine
+  bf16: true
+  seed: 42
+
+  # Logging & checkpoints
+  logging_steps: 10
+  eval_steps: 50
+  save_steps: 50
+  save_total_limit: 2
+
+# Evaluation
+evaluation:
+  max_samples: null            # null = all test samples
+  # API baselines to compare against (optional, uses API keys from .env)
+  baselines:
+    - provider:
+      model:

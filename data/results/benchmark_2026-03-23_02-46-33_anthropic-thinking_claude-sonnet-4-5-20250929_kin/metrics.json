@@ -1,0 +1,25 @@
+{
+  "lang": "kin",
+  "n_samples": 44,
+  "provider": "anthropic-thinking",
+  "model": "claude-sonnet-4-5-20250929",
+  "direct": {
+    "source_side": {
+      "em": 0.1364,
+      "f1": 0.2741,
+      "semantic_sim": 0.6288
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.1591,
+      "f1": 0.3533,
+      "semantic_sim": 0.5743
+    },
+    "source_side": {
+      "em": 0.1591,
+      "f1": 0.3327,
+      "semantic_sim": 0.6014
+    }
+  }
+}

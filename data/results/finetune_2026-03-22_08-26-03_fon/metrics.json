@@ -1,0 +1,28 @@
+{
+  "lang": "fon",
+  "n_samples": 57,
+  "finetuned": {
+    "english_side": {
+      "em": 0.1754,
+      "f1": 0.3155,
+      "semantic_sim": 0.5503
+    },
+    "source_side": {
+      "em": 0.1228,
+      "f1": 0.2033,
+      "semantic_sim": 0.4723
+    }
+  },
+  "base_translate_pivot": {
+    "english_side": {
+      "em": 0.193,
+      "f1": 0.2631,
+      "semantic_sim": 0.4481
+    },
+    "source_side": {
+      "em": 0.1579,
+      "f1": 0.184,
+      "semantic_sim": 0.4089
+    }
+  }
+}

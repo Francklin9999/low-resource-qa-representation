@@ -1,0 +1,24 @@
+{
+  "lang": "twi",
+  "n_samples": 71,
+  "model": "Aya-23-8B",
+  "aya_direct": {
+    "source_side": {
+      "em": 0.2254,
+      "f1": 0.2786,
+      "semantic_sim": 0.4598
+    }
+  },
+  "aya_translate_pivot": {
+    "english_side": {
+      "em": 0.2817,
+      "f1": 0.5043,
+      "semantic_sim": 0.6287
+    },
+    "source_side": {
+      "em": 0.3662,
+      "f1": 0.4873,
+      "semantic_sim": 0.6273
+    }
+  }
+}

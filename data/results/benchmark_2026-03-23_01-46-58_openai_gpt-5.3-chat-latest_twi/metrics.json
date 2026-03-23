@@ -1,0 +1,25 @@
+{
+  "lang": "twi",
+  "n_samples": 71,
+  "provider": "openai",
+  "model": "gpt-5.3-chat-latest",
+  "direct": {
+    "source_side": {
+      "em": 0.4648,
+      "f1": 0.5574,
+      "semantic_sim": 0.6902
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.3239,
+      "f1": 0.5357,
+      "semantic_sim": 0.6826
+    },
+    "source_side": {
+      "em": 0.3239,
+      "f1": 0.5504,
+      "semantic_sim": 0.6632
+    }
+  }
+}

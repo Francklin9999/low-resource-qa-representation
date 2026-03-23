@@ -1,0 +1,28 @@
+{
+  "lang": "twi",
+  "n_samples": 71,
+  "finetuned": {
+    "english_side": {
+      "em": 0.2676,
+      "f1": 0.5404,
+      "semantic_sim": 0.732
+    },
+    "source_side": {
+      "em": 0.3239,
+      "f1": 0.4934,
+      "semantic_sim": 0.716
+    }
+  },
+  "base_translate_pivot": {
+    "english_side": {
+      "em": 0.2254,
+      "f1": 0.4515,
+      "semantic_sim": 0.6091
+    },
+    "source_side": {
+      "em": 0.2958,
+      "f1": 0.4187,
+      "semantic_sim": 0.6074
+    }
+  }
+}

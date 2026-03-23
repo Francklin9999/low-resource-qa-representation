@@ -1,0 +1,25 @@
+{
+  "lang": "zul",
+  "n_samples": 49,
+  "provider": "anthropic",
+  "model": "claude-opus-4-5-20251101",
+  "direct": {
+    "source_side": {
+      "em": 0.3061,
+      "f1": 0.4295,
+      "semantic_sim": 0.7064
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.3265,
+      "f1": 0.5132,
+      "semantic_sim": 0.6752
+    },
+    "source_side": {
+      "em": 0.1633,
+      "f1": 0.336,
+      "semantic_sim": 0.6277
+    }
+  }
+}

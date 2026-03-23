@@ -1,0 +1,25 @@
+{
+  "lang": "fon",
+  "n_samples": 57,
+  "provider": "anthropic",
+  "model": "claude-opus-4-5-20251101",
+  "direct": {
+    "source_side": {
+      "em": 0.2281,
+      "f1": 0.3607,
+      "semantic_sim": 0.565
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.2105,
+      "f1": 0.3485,
+      "semantic_sim": 0.5241
+    },
+    "source_side": {
+      "em": 0.0175,
+      "f1": 0.0892,
+      "semantic_sim": 0.3869
+    }
+  }
+}

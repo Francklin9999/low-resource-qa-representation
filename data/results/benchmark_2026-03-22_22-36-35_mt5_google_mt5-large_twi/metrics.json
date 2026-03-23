@@ -1,0 +1,25 @@
+{
+  "lang": "twi",
+  "n_samples": 71,
+  "provider": "mt5",
+  "model": "google/mt5-large",
+  "direct": {
+    "source_side": {
+      "em": 0.0,
+      "f1": 0.0162,
+      "semantic_sim": 0.1276
+    }
+  },
+  "translate_pivot": {
+    "english_side": {
+      "em": 0.0,
+      "f1": 0.0316,
+      "semantic_sim": 0.2057
+    },
+    "source_side": {
+      "em": 0.0,
+      "f1": 0.0279,
+      "semantic_sim": 0.1712
+    }
+  }
+}

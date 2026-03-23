@@ -1,0 +1,28 @@
+{
+  "lang": "hau",
+  "n_samples": 45,
+  "finetuned": {
+    "english_side": {
+      "em": 0.3778,
+      "f1": 0.5722,
+      "semantic_sim": 0.7879
+    },
+    "source_side": {
+      "em": 0.3556,
+      "f1": 0.4326,
+      "semantic_sim": 0.7058
+    }
+  },
+  "base_translate_pivot": {
+    "english_side": {
+      "em": 0.2889,
+      "f1": 0.4197,
+      "semantic_sim": 0.6056
+    },
+    "source_side": {
+      "em": 0.2444,
+      "f1": 0.3445,
+      "semantic_sim": 0.571
+    }
+  }
+}

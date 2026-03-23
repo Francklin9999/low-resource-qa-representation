@@ -1,0 +1,28 @@
+{
+  "lang": "yor",
+  "n_samples": 51,
+  "finetuned": {
+    "english_side": {
+      "em": 0.3137,
+      "f1": 0.5287,
+      "semantic_sim": 0.7497
+    },
+    "source_side": {
+      "em": 0.2157,
+      "f1": 0.4101,
+      "semantic_sim": 0.7019
+    }
+  },
+  "base_translate_pivot": {
+    "english_side": {
+      "em": 0.1373,
+      "f1": 0.409,
+      "semantic_sim": 0.5998
+    },
+    "source_side": {
+      "em": 0.1176,
+      "f1": 0.3207,
+      "semantic_sim": 0.5906
+    }
+  }
+}

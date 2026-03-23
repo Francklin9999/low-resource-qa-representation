@@ -1,0 +1,31 @@
+# Local model configuration
+
+
+# Translation model
+translation:
+  model: facebook/nllb-200-distilled-600M
+  device: cpu
+  # NLLB-200 language codes mapping
+  lang_codes:
+    hau: hau_Latn
+    yor: yor_Latn
+    ibo: ibo_Latn
+    swa: swh_Latn
+    kin: kin_Latn
+    twi: twi_Latn
+    wol: wol_Latn
+    zul: zul_Latn
+    bem: bem_Latn
+    fon: fon_Latn
+    en: eng_Latn
+    fr: fra_Latn
+
+# Evaluation embeddings
+evaluation:
+  model: sentence-transformers/LaBSE
+  device: cpu
+
+# Fine-tuning base model
+finetune:
+  model: Qwen/Qwen2.5-3B-Instruct
+  device: gpu

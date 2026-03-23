@@ -1,0 +1,24 @@
+{
+  "lang": "fon",
+  "n_samples": 57,
+  "model": "Aya-23-8B",
+  "aya_direct": {
+    "source_side": {
+      "em": 0.0526,
+      "f1": 0.1083,
+      "semantic_sim": 0.3303
+    }
+  },
+  "aya_translate_pivot": {
+    "english_side": {
+      "em": 0.193,
+      "f1": 0.3393,
+      "semantic_sim": 0.4938
+    },
+    "source_side": {
+      "em": 0.1754,
+      "f1": 0.221,
+      "semantic_sim": 0.4291
+    }
+  }
+}

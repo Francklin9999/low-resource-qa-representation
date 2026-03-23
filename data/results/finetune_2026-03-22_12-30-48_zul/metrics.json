@@ -1,0 +1,28 @@
+{
+  "lang": "zul",
+  "n_samples": 49,
+  "finetuned": {
+    "english_side": {
+      "em": 0.4286,
+      "f1": 0.6373,
+      "semantic_sim": 0.7758
+    },
+    "source_side": {
+      "em": 0.1429,
+      "f1": 0.3223,
+      "semantic_sim": 0.7045
+    }
+  },
+  "base_translate_pivot": {
+    "english_side": {
+      "em": 0.2857,
+      "f1": 0.4927,
+      "semantic_sim": 0.6352
+    },
+    "source_side": {
+      "em": 0.0816,
+      "f1": 0.2469,
+      "semantic_sim": 0.5764
+    }
+  }
+}
