@@ -2,6 +2,12 @@
 
 **Benchmarking Large Language Models on Extractive Question Answering for Low-Resource African Languages**
 
+[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](paper/Franck_Fongang_Low_Resource_QA_Translation.pdf)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+
+📄 **[Read the paper (PDF)](paper/Franck_Fongang_Low_Resource_QA_Translation.pdf)** — full methodology, results, and analysis.
+
 ## Motivation
 
 Large language models achieve remarkable performance on English NLP tasks, yet their capabilities on low-resource languages remain understudied. For many African languages, there is an open question: should we query LLMs *directly* in the target language, or *translate* to English first, query the LLM, and translate the answer back? This project provides an empirical answer by systematically benchmarking both strategies across 10 African languages, 5 model families, and a locally fine-tuned model.
@@ -344,6 +350,19 @@ class MyProvider(LLMProvider):
 ```
 
 ## Citation
+
+If you use this work, please cite the paper ([PDF](paper/Franck_Fongang_Low_Resource_QA_Translation.pdf)):
+
+```bibtex
+@misc{fongang2026lowresourceqa,
+  title  = {Direct vs. Translate-Pivot: Benchmarking LLMs on Extractive Question Answering for Low-Resource African Languages},
+  author = {Franck Fongang},
+  year   = {2026},
+  note   = {\url{https://github.com/Francklin9999/low-resource-qa-representation}}
+}
+```
+
+Or cite the codebase directly:
 
 ```bibtex
 @software{multilingual_qa_bench,
